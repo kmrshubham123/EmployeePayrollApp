@@ -15,7 +15,7 @@
 
 <body>
     <header class="header-content header">
-        <div class="logo-content">
+        <div class="logo-content" onclick="location.href='./HomeEmployeePayroll.html'">
             <img src="..\Assets\EmpRsLogo.png" alt="logo">
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
@@ -28,7 +28,8 @@
             <div class="form-head">Employee Payroll Form </div>
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
-                <input class="input" type="text" id="name" name="name" placeholder="Your Name" required>
+                <input class="input" type="text" id="name" name="name" placeholder="Your Name" style="width :263px"
+                    required>
             </div>
             <div class="row-content">
                 <label class="label text" for="profile">Profile Image</label>
@@ -153,6 +154,20 @@
 
                     </select>
 
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="notes">Notes</label>
+                <textarea id="notes" class="input" name="Notes" placeholder=""
+                    style="height: 100px; width: 263px;"></textarea>
+            </div>
+            <div class="button-parent">
+                <div class="cancelButton">
+                    <a href="./HomeEmployeePayroll.html" class="resetButton button cancelButton">Cancel</a>
+                </div>
+                <div class="submit-reset">
+                    <button class="button submitButton" type="submit">Submit</button>
+                    <button type="reset" class="button resetButton">Reset</button>
                 </div>
             </div>
         </form>
