@@ -144,10 +144,7 @@ select{
     text-align: center;
     float:left;
 }
-.submit-reset{
-    display: flex;
-    justify-content: flex-end;
-}
+
 /*UC:-6 Extn-Adding Media Queries*/
 @media only screen and (max-width:960px){
 .cancelButton{
